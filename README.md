@@ -18,16 +18,16 @@ Projede uygulanan temel adımlar:
 
 ### Kullanılan Modeller
 - Random Forest Regressor
-  Neden Random Forest Regressor:
+Neden Random Forest Regressor:
   - Sayısal ve kategorik veriler aynı anda yer aldığı durumlarda etkilidir.
   - Çok sayıda karar ağacının ortalaması olduğu için overfittinge karşı dirençlidir.
   - Değişkenlerin ne kadar etkili olduğunu açıklamada iyidir.
-  Neden diğer yöntemler olmaz:
+Neden diğer yöntemler olmaz:
   - Lineer Regresyon: Veri seti lineer olmayan durumlar,fazla kategorik değişken ve etkilişim içerdiğinden , bu veri seti için başarısızdır.
   - Knn Regressor: Yüksek boyutlu verilerde çok vakit alır.
   - Neural Network: Random forest regressore kıyasla daha komplike, daha büyük ölçekli veri setlerinde işlevsel.
 - LightGBM Regressor (GridSearchCV ile hiperparametre optimizasyonlu)
-  Neden LightGBm Regressor:
+Neden LightGBm Regressor:
   - Daha hızlıdır ve belleği daha az kullanır.
   - Hiperparametre optimizasyonuna açıktır.
  
